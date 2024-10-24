@@ -1,0 +1,112 @@
+# Arquivos compilados em Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches do IPython
+profile_default/
+ipython_config.py
+
+# Distribuição / Pacotes
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+pip-wheel-metadata/
+
+# Arquivos de ambiente virtual
+env/
+venv/
+ENV/
+venv.bak/
+env.bak/
+
+# Arquivos de configuração do PyInstaller
+*.spec
+
+# Logs e registros
+*.log
+*.out
+*.err
+logs/
+log/
+
+# Dados em cache
+.cache/
+*.sqlite3
+*.db
+*.sqlite
+
+# Configurações do editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Arquivos de ambiente
+.env
+.env.*
+!.env.example
+
+# Arquivos do Jupyter Notebook
+.ipynb_checkpoints/
+
+# Arquivos do MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Arquivos do Pytest
+.pytest_cache/
+
+# Arquivos do Coverage
+htmlcov/
+.coverage
+.coverage.*
+
+# Arquivos do pytest
+.tox/
+.nox/
+
+# Arquivos temporários
+*.tmp
+*.temp
+tmp/
+temp/
+
+# Arquivos de lock de dependências (se não quiser versioná-los)
+Pipfile.lock
+poetry.lock
+poetry.toml
+
+# Arquivos do Docker
+docker-compose.override.yml
+
+# Arquivos do Celery Beat Schedule
+celerybeat-schedule
+
+# Arquivos de certificados SSL (se estiver usando para desenvolvimento)
+*.pem
+
+# Arquivos de mídia e estáticos
+media/
+staticfiles/
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de depuração
+debug.log
+
+# Arquivos do pylint e flake8
+.pylint.d/
+.flake8
+
+# Arquivos do pytest
+.cache/
+
+# Arquivos do FastAPI
+*.db-journal
+*.pid
