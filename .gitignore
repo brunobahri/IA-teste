@@ -110,3 +110,4 @@ debug.log
 # Arquivos do FastAPI
 *.db-journal
 *.pid
+
