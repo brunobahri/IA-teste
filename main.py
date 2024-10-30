@@ -17,6 +17,3 @@ def root():
     except Exception as e:
         # Outros erros genéricos
         raise HTTPException(status_code=500, detail=str(e))
-
-
-
